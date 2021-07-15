@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <title>Food-Delivery</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header-h1">Food-Delivery</h1>
+    <div class="melhor-img">
+      <img src="img/melhor.png" alt="O melhor para comidas">
+    </div>
+    <div class="melhor-img">
+      <img src="img/food-blogger.png" alt="O melhor para comidas">
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="">
+      <h1>Categorias</h1>
+
+      <ul class="categorias">
+        <li>
+          <a class="todas-categorias active" data-category="all" href="#">
+            <div class="">
+              <img src="/img/all.png" alt="">
+            </div>
+            <span >Todos</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="todas-categorias" data-category="salgado" href="#"">
+                  <div ">
+            <img src="/img/salgados/aioli.png" alt="">
+            </div>
+            <span>Salgados</span>
+          </a>
+        </li>
+
+        <li>
+          <a class="todas-categorias" data-category="japones" href="#">
+            <div >
+              <img src="/img/japones/temaki.png" alt="">
+            </div>
+            <span>Japones</span>
+          </a>
+        </li>
+        <li>
+          <a class="todas-categorias" data-category="doce" href="#">
+            <div >
+              <img src="/img/doces/bolo.png" alt="">
+            </div>
+            <span>Doces</span>
+          </a>
+        </li>
+      </ul>
+      </div>
+    </section>
+
+      <section class="escolhe-pedido-section">
+        <h1> Escolha Pedido </h1>
+
+          <ul class="opcoes-pedido">
+
+          </ul>
+
+      </section>
+
+  </main>
+  <section class="carrinho">
+    <h1 >Carrinho</h1>
+    <ul class="todos-pedidos">
+
+    </ul>
+  </section>
+  <div class="total-span">
+    <span class="">Total: <span class="total"></span></span>
+  </div>
+</body>
+
+</html>

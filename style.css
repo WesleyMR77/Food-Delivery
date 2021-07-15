@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(220, 222, 244);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: rgb(189, 47, 47);
+    font-size: 26px;    
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 50px;
+}
+
+.header{
+    width: 20vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: rgb(220, 222, 244);
+    border-radius: 50px ;
+}
+
+.header-h1{
+ font-size: 30px;
+ font-weight: 800;
+}
+.melhor-img{
+    margin-top: 10vh;
+}
+.melhor-img img{
+ min-width: 150px;
+
+ 
+}
+
+.main{
+    width: 50vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px ;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.carrinho{
+    width: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px ;  
+    border-top-left-radius: 0px;  
+    border-bottom-left-radius: 0px;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 47, 255);
+    font-weight: 600;
+}
+
+.categorias li{
+    padding-top: 10px;
+    width: 120px;
+    height: 100px;
+    background-color: rgb(235, 236, 238);
+    border-radius: 20px ;
+}
+.categorias li a div img{
+    width: 60px;
+}
+
+.escolhe-pedido-section ul{
+    overflow-y: scroll;
+    max-height: 47vh;  
+}
+
+.opcoes-pedido li{
+    display: inline-block;
+    text-align: center ;
+    width: 180px;
+    max-height: 140px;
+    min-height: 140px;
+    background-color: rgb(236, 237, 239);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(235, 236, 238);
+}
+
+.list-menu{
+    margin-top: 15px;
+}
+
+.todos-pedidos{
+    overflow-y: scroll;
+    max-height: 65vh;  
+}
+.todos-pedidos li{
+    display: inline-block;
+    text-align: center ;
+    width: 140px;
+    max-height: 100px;
+    min-height: 100px;
+    background-color: rgba(65, 96, 160, 0.3);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: 1000;
+}
+
+.total-span{
+    font-size: 30px;
+    margin-top: 85.5vh;
+    margin-left: 73vw;
+    color: rgb(189, 47, 47);
+    font-weight: 1000;
+    text-align: left;
+    position: absolute;
+    
+}
